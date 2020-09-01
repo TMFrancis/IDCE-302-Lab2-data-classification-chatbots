@@ -5,7 +5,9 @@ To complete this lab you will need to add two different .ipynb or .py scripts th
 You can write your script using whatever tools you like (e.g. Colab or a local IDE), but it must include a comment block at the top of each script with the following information:
 
 Name:
+
 Date created:
+
 Very brief description of the assignment or the assignment name. Include inputs and outputs.
 You should edit your README file to provide the following information:
 
