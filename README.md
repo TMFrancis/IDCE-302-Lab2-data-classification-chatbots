@@ -1,4 +1,5 @@
 Lab 2 – Data Classification & Chatbots
+
 To complete this lab you will need to add two different .ipynb or .py scripts that contain your code (be sure they are well commented!) and edit this README file.
 
 You can write your script using whatever tools you like (e.g. Colab or a local IDE), but it must include a comment block at the top of each script with the following information:
@@ -14,6 +15,7 @@ If you could resolve an issue, give as much detail as you can about what the iss
 Remember that you are encouraged to look for answers online! Stackoverflow, other Github repositories, or Python documentation are all good places to start.
 
 Script 1 - Classifying Data
+
 Write a function, called “feelTemp”, that converts a given temperature (in Fahrenheit) into four categorical levels, hot, warm, cool, and cold using the following criteria:
 
 If the temperature is 100 or above, the functions return “It is hot.”;
@@ -25,8 +27,8 @@ The function feelTemp will take one value for the temperature, and then returns 
 Use if/elif/else structure to classify the input numerical values into one of the four categories; use the input to get input from the keyboard. Be sure to include comments and documentation in your script to tell me what it’s doing!
 
 Script 2 - Create your first chatbot!
-The internet is full of amazing "intelligent" chatbots that use things like neural networks to talk like a certain person: many of these chatbot applications are written in Python. Simple chatbots follow decision trees by looking for specific keywords using things like if, elif, else statements. Some chatbots may use input() to capture input from a user, including numbers.
 
+The internet is full of amazing "intelligent" chatbots that use things like neural networks to talk like a certain person: many of these chatbot applications are written in Python. Simple chatbots follow decision trees by looking for specific keywords using things like if, elif, else statements. Some chatbots may use input() to capture input from a user, including numbers.
 Write a chat bot that either uses if, elif, else to respond back to the user or collects a number from the user then employs type conversion to change the number (remember that input() only returns string values) and perform some sort of computation.
 
 If you're feeling really motivated, you can write a script that combines the two. A good first step is to write out a "script" for the user and the program. For example:
