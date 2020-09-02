@@ -1,50 +1,26 @@
-Lab 2 – Data Classification & Chatbots
+# Week 2 Content
+This week kicks of coding in earnest by diving into functions, conditionals, and recursion. There is another writing assignment this week designed to get them thinking about what "open source" means and when it might be useful.
 
-To complete this lab you will need to add two different .ipynb or .py scripts that contain your code (be sure they are well commented!) and edit this README file.
+See the `Lecture_jupyter_notebooks` folder for code along notebook lectures and the `Lecture_slides` folder for .pdf versions of the PowerPoints I gave (you’ll need to adapt these for yourself since a lot of the international development / humanitarian examples are pulled straight from my professional experience).
 
-You can write your script using whatever tools you like (e.g. Colab or a local IDE), but it must include a comment block at the top of each script with the following information:
+**Readings for the week**
+- Chapter 3, [Functions](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+- Chapter 4,  [Case study: interface design](http://greenteapress.com/thinkpython2/html/thinkpython2005.html)
+- Chapter 5, [Conditionals & Recursions](http://greenteapress.com/thinkpython2/html/thinkpython2006.html)
 
-Name:
+They should also do some reading to familiarize themselves with the “open source” debate in International Development, which will be the focus of a writing assignment next week. These readings could also be used to facilitate a discussion. I start them off with:
+- Watch this [TEDx talk featuring Chris Fabian of UNICEF](https://www.youtube.com/watch?v=ASNwGNUOiJY)
+- Explore [UNICEF’s Innovation group and explore what types of project they do](http://unicefstories.org/tag/open-source/)
+- Read contrasting views on open source technology in international development in [this ICTWorks blog post](https://www.ictworks.org/how-can-open-source-software-be-sustainable-in-international-development/#.XLVJJpNKiF0) and [this Devresults blog post]( https://blog.devresults.com/the-revolution-will-not-be-open-source/)
 
-Date created:
+## Lab / Assignments
+The lab this week uses `if/elif/else` to classify data. There is also another writing assignment, as follows:
 
-Very brief description of the assignment or the assignment name. Include inputs and outputs.
-You should edit your README file to provide the following information:
+>Write between 1,000 - 1,500 words to discuss open source software in international development and humanitarian settings and / or the role of things like "big data" in development and humanitarian settings. You should also discuss how it might relate to your given field. You should reference readings we have had in class; the additional readings below; and at least two other sources. Specific themes you should address are: what is "open source" and "big data" (how are these things defined); describe benefits, challenges, or both that they create in development or humanitarian settings, as well as your field. There is no right answer here: I want you to process what we've read, find some new material, and offer your thoughts with clear arguments. You should present at least one real or imagined example to illustrate your argument.
 
-Summarize what your scripts do, or the problem you were trying to solve.
-Summarize any major errors or difficulties you encountered and what sources you used to resolve them.
-If you could resolve an issue, give as much detail as you can about what the issue was, and what sources you looked at to try and figure something out.
-Remember that you are encouraged to look for answers online! Stackoverflow, other Github repositories, or Python documentation are all good places to start.
+Provide details on formatting and submissions as needed.
 
-Script 1 - Classifying Data
-
-Write a function, called “feelTemp”, that converts a given temperature (in Fahrenheit) into four categorical levels, hot, warm, cool, and cold using the following criteria:
-
-If the temperature is 100 or above, the functions return “It is hot.”;
-If the temperature is between 70 and 100, the function returns “It is warm.”;
-If the temperature is between 32 and 70, the functions return “It is cool.”;
-If the temperature is below 32, it returns “It is cold.”
-The function feelTemp will take one value for the temperature, and then returns a category as a string. When running the program, the user is prompted to input a temperature, then the program prints one of the four categorical levels (hot, warm, cool, and cold) that the given temperature falls into.
-
-Use if/elif/else structure to classify the input numerical values into one of the four categories; use the input to get input from the keyboard. Be sure to include comments and documentation in your script to tell me what it’s doing!
-
-Script 2 - Create your first chatbot!
-
-The internet is full of amazing "intelligent" chatbots that use things like neural networks to talk like a certain person: many of these chatbot applications are written in Python. Simple chatbots follow decision trees by looking for specific keywords using things like if, elif, else statements. Some chatbots may use input() to capture input from a user, including numbers.
-Write a chat bot that either uses if, elif, else to respond back to the user or collects a number from the user then employs type conversion to change the number (remember that input() only returns string values) and perform some sort of computation.
-
-If you're feeling really motivated, you can write a script that combines the two. A good first step is to write out a "script" for the user and the program. For example:
-
-Sample script for input chatbot
-
-Computer: "Hi, what's your name?"
-User: "Pat"
-Computer: "Hi Pat. How old are you?"
-User: "20"
-Computer: "Pat, in ten years you'll be 30."
-Sample script for if, else, elif chatbot
-
-If the function is run using the name Shadrock as an argument the computer will display: "Hey, Shadrock!"
-If the function is run using the name Shashank as an argument the computer will display: "Hi, Shashank!"
-... or else if the function is run using another name the computer will display "Hi, name. I don't believe we've met yet."
-Once you know what you want the inputs and outputs of your code to be, based on the script, you can start. Happy coding!
+At a minimum, I ask students to use/cite the following in their paper. The sources below could also be used for a moderated discussion.
+- [4 ways to apply data science skills to a career in development (blog)](https://www.devex.com/news/sponsored/opinion-4-ways-to-apply-data-science-skills-to-a-career-in-development-93396)
+- Anderson, C. (2008). [The end of theory: The data deluge makes the scientific method obsolete](https://www.wired.com/2008/06/pb-theory/) in Wired Magazine.
+- Lazer, D., Kennedy, R., King, G., & Vespignani, A. (2014). [The Parable of Google Flu: Traps in Big Data Analysis](https://gking.harvard.edu/files/gking/files/0314policyforumff.pdf). Science, 343(6176), 1203–1205.
