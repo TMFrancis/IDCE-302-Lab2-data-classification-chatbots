@@ -1,10 +1,6 @@
-# Lab 2 - Data Classification & Chatbots
-To complete this lab you will need to add two different `.ipynb` or `.py` scripts that contain your code (be sure they are well commented!) and edit this README file.
-
-You can write your script using whatever tools you like (e.g. Colab or a local IDE), but it must include a comment block at the top of each script with the following information:
-- Name:
-- Date created:
-- Very brief description of the assignment or the assignment name. Include inputs and outputs.
+- Name: Tom Francis
+- Date created 10 September 2020
+- Description: Lab 2 involves two scripts. Both employ user input. The first classifies input data: soliciting input on the temperature and characterizing the temperature as one of four general ranges. 
 
 You should edit your README file to provide the following information:
 - Summarize what your scripts do, or the problem you were trying to solve.
